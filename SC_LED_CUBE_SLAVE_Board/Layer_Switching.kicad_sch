@@ -6676,7 +6676,7 @@
 				(justify left)
 			)
 		)
-		(property "Component Class" "Driver12"
+		(property "Component Class" "Driver2"
 			(at 31.8135 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
