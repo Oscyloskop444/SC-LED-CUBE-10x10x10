@@ -1796,12 +1796,6 @@
 		(uuid "48d9d794-abe5-4f36-b2c2-99a40e2115cc")
 	)
 	(junction
-		(at 124.46 233.045)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c8f804a-33d2-45d9-9346-805b46b196e9")
-	)
-	(junction
 		(at 64.135 95.885)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2010,6 +2004,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5bfdaec-070d-4eae-8455-1093c5fadb6f")
+	)
+	(junction
+		(at 124.46 233.045)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdfaa768-8a79-4ca8-8153-b9234aa16a8e")
 	)
 	(junction
 		(at 76.835 151.765)
@@ -2624,16 +2624,6 @@
 			(type default)
 		)
 		(uuid "0b6714bb-bbc8-4385-bf8d-71044c2f609e")
-	)
-	(wire
-		(pts
-			(xy 124.46 233.045) (xy 127 233.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d3aa3ef-34fe-4627-9c2f-41e35509938d")
 	)
 	(wire
 		(pts
@@ -4183,7 +4173,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 230.505) (xy 134.62 230.505)
+			(xy 124.46 230.505) (xy 134.62 230.505)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 233.045) (xy 127 230.505)
+			(xy 124.46 230.505) (xy 124.46 233.045)
 		)
 		(stroke
 			(width 0)
@@ -6917,7 +6907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0540b840-a0ea-415c-b595-d3e359dead69")
-		(property "Reference" "R17"
+		(property "Reference" "R45"
 			(at 97.155 219.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +6971,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R17")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -6999,7 +6989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a6256f1-8884-42a6-be64-e814ee7ed203")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR023"
 			(at 309.88 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7059,7 +7049,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR044")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -7077,7 +7067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bae7695-6bff-41f2-8f5e-418564d9b572")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR022"
 			(at 85.725 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -7137,7 +7127,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR09")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7155,7 +7145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f1e0304-8597-4200-884d-d68a4babec25")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR018"
 			(at 241.3 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -7215,7 +7205,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR039")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7233,7 +7223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11a9f1cc-fbb8-4eb2-9a12-09590a37dc55")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR040"
 			(at 199.39 121.285 0)
 			(hide yes)
 			(show_name no)
@@ -7293,7 +7283,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR033")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -7311,7 +7301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c70e71-668a-40e9-960b-31e7cbff1c98")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR024"
 			(at 232.41 45.085 0)
 			(hide yes)
 			(show_name no)
@@ -7371,7 +7361,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR036")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7389,7 +7379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15d3a275-c855-479c-b7d7-916d186a8389")
-		(property "Reference" "C11"
+		(property "Reference" "C44"
 			(at 55.245 145.4149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7453,7 +7443,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C11")
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -7471,7 +7461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "166070dc-5284-47cd-a72d-6a72508bcd66")
-		(property "Reference" "R13"
+		(property "Reference" "R39"
 			(at 224.79 108.585 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7533,7 +7523,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R13")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -7551,7 +7541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "175ec0f5-809c-40af-90f3-16ea1f440d5e")
-		(property "Reference" "U10"
+		(property "Reference" "U11"
 			(at 141.605 152.3298 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7625,7 +7615,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U10")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -7643,7 +7633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1781a6b4-4fa3-4486-8038-a36365a1a95b")
-		(property "Reference" "C8"
+		(property "Reference" "C35"
 			(at 55.245 89.5349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7707,7 +7697,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C8")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -7725,7 +7715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bdb7261-eff5-40ab-b791-f0a0e1b2cb62")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR057"
 			(at 132.08 259.715 0)
 			(hide yes)
 			(show_name no)
@@ -7785,7 +7775,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR051")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -7803,7 +7793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bfad0e7-b91c-419c-bdc0-164c9f3c6bf3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR026"
 			(at 76.835 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -7863,7 +7853,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7881,7 +7871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f4b107b-a517-4f0e-b48e-3bf66e4df8b2")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 199.39 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -7941,7 +7931,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7959,7 +7949,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "207486be-9659-4530-8d90-f562a991f608")
-		(property "Reference" "Q9"
+		(property "Reference" "Q4"
 			(at 250.19 47.6251 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,7 +8047,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q9")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8075,7 +8065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21fb2e2f-cc75-4b83-9cb8-c8e5f013176d")
-		(property "Reference" "C31"
+		(property "Reference" "C40"
 			(at 236.22 144.1449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8139,7 +8129,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C31")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -8157,7 +8147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "237bc2a9-1a53-4e64-89be-781ad217c5a5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR043"
 			(at 199.39 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -8217,7 +8207,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR034")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278746f1-d2a1-4809-8772-afe79cd193b8")
-		(property "Reference" "U15"
+		(property "Reference" "U14"
 			(at 144.78 222.885 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8345,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U15")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -8373,7 +8363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278aa0e4-993e-4ef8-a396-024bef5d8dc8")
-		(property "Reference" "C6"
+		(property "Reference" "C26"
 			(at 55.245 33.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +8427,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C6")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -8455,7 +8445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad2ba0d-f8fa-4f2e-a042-74bc3088f7d3")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR050"
 			(at 154.305 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -8515,7 +8505,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR026")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8533,7 +8523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d780137-4921-4893-bc84-7452993b3905")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 154.305 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8593,7 +8583,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8610,7 +8600,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39396fd1-23f6-4535-9c70-af439eeb19d8")
-		(property "Reference" "C36"
+		(property "Reference" "C48"
 			(at 170.18 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8674,7 +8664,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C36")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -8692,7 +8682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f019b24-2f5e-4cf0-bbb0-9548c411722d")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 64.135 41.2048 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8766,7 +8756,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -8784,7 +8774,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4191ce7b-07c9-4d71-a4d7-5372b79f8b08")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR042"
 			(at 43.815 122.555 0)
 			(hide yes)
 			(show_name no)
@@ -8844,7 +8834,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR011")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8862,7 +8852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4493a848-b09e-41c1-ab31-e69ed96e617a")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 64.135 97.0848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8936,7 +8926,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -8954,7 +8944,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "451564e5-c745-419e-aa2f-0068f9ac1154")
-		(property "Reference" "R10"
+		(property "Reference" "R40"
 			(at 146.685 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9016,7 +9006,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R10")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9034,7 +9024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47fe46a4-bb5f-400a-86f6-89bf515c6687")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR049"
 			(at 232.41 156.845 0)
 			(hide yes)
 			(show_name no)
@@ -9094,7 +9084,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR038")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9112,7 +9102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4950026e-4eef-4f78-a917-ac7ee258dbab")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR060"
 			(at 124.46 274.955 0)
 			(hide yes)
 			(show_name no)
@@ -9172,7 +9162,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR050")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -9190,7 +9180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49adf3c5-dc3b-4219-abeb-6748d30e3f74")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR020"
 			(at 163.195 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9250,7 +9240,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR027")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -9268,7 +9258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a4b36e8-7260-44da-b681-b3bd6d40d143")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR044"
 			(at 241.3 142.875 0)
 			(hide yes)
 			(show_name no)
@@ -9328,7 +9318,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR041")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -9346,7 +9336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b15e0d2-05b6-414e-be52-e89a02ce0936")
-		(property "Reference" "Q12"
+		(property "Reference" "Q3"
 			(at 327.66 46.9901 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9444,7 +9434,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q12")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9462,7 +9452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f499407-1be0-4ed0-b850-045ae4e595df")
-		(property "Reference" "R19"
+		(property "Reference" "R47"
 			(at 126.365 260.9849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9526,7 +9516,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R19")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -9622,7 +9612,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54cf2d36-9a26-4361-8a15-17852cb36f92")
-		(property "Reference" "R9"
+		(property "Reference" "R37"
 			(at 146.685 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9674,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R9")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9702,7 +9692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54f2b7c6-ccef-4be2-ab49-ec3c6a6f895c")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR021"
 			(at 43.815 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -9762,7 +9752,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR05")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9780,7 +9770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "54fafb7c-2c42-4d6f-b8d0-25f7add87a39")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR016"
 			(at 318.77 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9840,7 +9830,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR045")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -9858,7 +9848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "592af19e-55a1-46ae-a2ac-97720f2268ab")
-		(property "Reference" "C24"
+		(property "Reference" "C29"
 			(at 210.82 88.2649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9922,7 +9912,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C24")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -9940,7 +9930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bcefd20-d7f6-4eae-a10a-fed9077bd968")
-		(property "Reference" "C10"
+		(property "Reference" "C37"
 			(at 80.645 89.5349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10004,7 +9994,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C10")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -10022,7 +10012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ef12bb9-f3b0-49aa-9e38-ce9d15fb9558")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR027"
 			(at 276.86 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10082,7 +10072,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR043")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10100,7 +10090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f9acd1f-6cac-40f5-99c8-de3ba5a81b06")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR030"
 			(at 43.815 66.675 0)
 			(hide yes)
 			(show_name no)
@@ -10160,7 +10150,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR08")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10178,7 +10168,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "601ad2a2-df9c-4a9a-9add-4c53e787c97b")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 172.085 48.2601 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10276,7 +10266,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -10294,7 +10284,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61471f11-ca83-450c-9fd2-a5ff83e90c48")
-		(property "Reference" "Q5"
+		(property "Reference" "Q12"
 			(at 94.615 160.6551 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10392,7 +10382,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q5")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -10410,7 +10400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61f88c10-6ab3-45cd-8d55-54b4efd02932")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR054"
 			(at 43.815 178.435 0)
 			(hide yes)
 			(show_name no)
@@ -10470,7 +10460,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR015")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10487,7 +10477,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "637a4cfc-ba73-4d95-b4e5-cb5109c3cec4")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 145.415 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10551,7 +10541,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C17")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -10569,7 +10559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63bb2ed7-6ef7-46a7-a0aa-0348b9efbc90")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR039"
 			(at 76.835 102.235 0)
 			(hide yes)
 			(show_name no)
@@ -10629,7 +10619,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR012")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10647,7 +10637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "647cf937-43cc-4348-bf53-86b850257b8c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR052"
 			(at 199.39 177.165 0)
 			(hide yes)
 			(show_name no)
@@ -10707,7 +10697,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR035")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10725,7 +10715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64b46758-48aa-49ae-9b78-a75e2879ff63")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 121.285 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10785,7 +10775,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10803,7 +10793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676bd006-ff70-44d9-b280-262d017cd0f8")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR047"
 			(at 43.815 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -10863,7 +10853,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR014")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10881,7 +10871,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d1a8e62-5f3c-413b-9b9d-baed394c242b")
-		(property "Reference" "C34"
+		(property "Reference" "C19"
 			(at 313.69 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +10935,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C34")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10962,7 +10952,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e023339-da54-4f25-84f4-c703fb08ab44")
-		(property "Reference" "C33"
+		(property "Reference" "C18"
 			(at 300.99 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11026,7 +11016,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C33")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -11043,7 +11033,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fd87117-0c3b-4fb3-810f-ef322e8608f8")
-		(property "Reference" "C27"
+		(property "Reference" "C30"
 			(at 223.52 88.2649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11107,7 +11097,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C27")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -11125,7 +11115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71056fec-e0aa-491d-81fd-41f3d3436423")
-		(property "Reference" "Q7"
+		(property "Reference" "Q8"
 			(at 172.085 104.1401 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11223,7 +11213,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q7")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -11241,7 +11231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "724426ec-e893-4be6-8360-9766e99030c1")
-		(property "Reference" "U14"
+		(property "Reference" "U3"
 			(at 297.18 39.2998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11315,7 +11305,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U14")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -11333,7 +11323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "746b0aa7-5a7f-4c73-adc7-76e801bcf997")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 179.07 259.715 0)
 			(hide yes)
 			(show_name no)
@@ -11393,7 +11383,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -11411,7 +11401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7677e60b-2dd7-4331-a11a-e0f87b34ab86")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR048"
 			(at 85.725 144.145 0)
 			(hide yes)
 			(show_name no)
@@ -11471,7 +11461,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR017")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -11489,7 +11479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7910daf2-1cef-4a02-8efd-5efbb1e82857")
-		(property "Reference" "C22"
+		(property "Reference" "C43"
 			(at 158.115 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11553,7 +11543,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C22")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -11571,7 +11561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a66c56d-387c-45fa-9b7a-fb3207981309")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 199.39 65.405 0)
 			(hide yes)
 			(show_name no)
@@ -11631,7 +11621,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11649,7 +11639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b7e1f87-343c-4bf7-856f-8c25fb692f5e")
-		(property "Reference" "U7"
+		(property "Reference" "U12"
 			(at 64.135 152.9648 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11723,7 +11713,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U7")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -11741,7 +11731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c095873-739f-412e-97bc-a14e2894ddd2")
-		(property "Reference" "C21"
+		(property "Reference" "C34"
 			(at 158.115 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11805,7 +11795,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C21")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11823,7 +11813,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cd5e8d1-8399-4859-8322-f8e6a77a2abf")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR055"
 			(at 95.25 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -11883,7 +11873,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR047")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11900,7 +11890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ed18d3f-9f8c-46da-b398-40a6748a7bd8")
-		(property "Reference" "C26"
+		(property "Reference" "C21"
 			(at 223.52 32.3849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11964,7 +11954,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C26")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -11982,7 +11972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83d574f2-6173-4fdc-9280-6800d3b5f959")
-		(property "Reference" "Q1"
+		(property "Reference" "Q6"
 			(at 94.615 48.8951 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12080,7 +12070,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q1")
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -12098,7 +12088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c9ddf42-fe0c-43a0-b97c-8ee0aa2e6f62")
-		(property "Reference" "C29"
+		(property "Reference" "C22"
 			(at 236.22 32.3849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12162,7 +12152,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C29")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -12180,7 +12170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e256f5d-6fc6-4763-969d-29c5bde8db9b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR032"
 			(at 241.3 86.995 0)
 			(hide yes)
 			(show_name no)
@@ -12240,7 +12230,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR040")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12258,7 +12248,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e4eecc8-250b-45fe-a974-c9a799f61db7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR046"
 			(at 163.195 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -12318,7 +12308,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR029")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -12336,7 +12326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "929846a6-a07b-43d6-a41e-8ee0389ea4f4")
-		(property "Reference" "R4"
+		(property "Reference" "R41"
 			(at 69.215 109.855 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12398,7 +12388,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R4")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -12416,7 +12406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93600b9f-4482-4b0a-a947-7c9a7ada6eeb")
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 236.22 88.2649 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12480,7 +12470,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12498,7 +12488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9384c10b-0556-455e-a981-4b78aacbe593")
-		(property "Reference" "R18"
+		(property "Reference" "R46"
 			(at 131.445 219.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12562,7 +12552,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R18")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -12580,7 +12570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93c7acb5-7f61-4c45-a1d3-084b40ddf389")
-		(property "Reference" "R15"
+		(property "Reference" "R35"
 			(at 302.26 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12642,7 +12632,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R15")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -12660,7 +12650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "975443ce-e047-46d1-a2c8-b6907bd73c39")
-		(property "Reference" "C23"
+		(property "Reference" "C20"
 			(at 210.82 32.3849 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12724,7 +12714,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C23")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12742,7 +12732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98c134ec-287c-46b9-a1bd-94619d3e40cf")
-		(property "Reference" "U12"
+		(property "Reference" "U7"
 			(at 219.71 95.8148 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12816,7 +12806,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U12")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12833,7 +12823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9dc9be40-d299-4eb0-afac-cee7d2b27906")
-		(property "Reference" "C12"
+		(property "Reference" "C45"
 			(at 67.945 145.4149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12897,7 +12887,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C12")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -12915,7 +12905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7372a44-c32d-4ee1-a650-ac52cc9c4475")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR038"
 			(at 154.305 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12975,7 +12965,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR025")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -12993,7 +12983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7385bf4-5a60-4f02-8647-22940c77d8d9")
-		(property "Reference" "C7"
+		(property "Reference" "C28"
 			(at 80.645 33.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13057,7 +13047,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C7")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -13075,7 +13065,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa9e51a8-f3ba-48df-b481-57e8bfc7aa1e")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 141.605 40.5698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13149,7 +13139,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -13167,7 +13157,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ac6ff9c0-9fbd-49d6-94fa-a427883e4737")
-		(property "Reference" "R3"
+		(property "Reference" "R38"
 			(at 69.215 53.975 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13229,7 +13219,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R3")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -13247,7 +13237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adfd8fc1-3c9e-4cf1-98d2-9fe8c3a4f621")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR053"
 			(at 121.285 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -13307,7 +13297,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR023")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13325,7 +13315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af47911c-e9d9-4822-8756-e70c277f44fb")
-		(property "Reference" "U13"
+		(property "Reference" "U10"
 			(at 219.71 151.6948 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13399,7 +13389,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U13")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -13416,7 +13406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af93b629-0f57-4732-9f61-4fad93e27c02")
-		(property "Reference" "C19"
+		(property "Reference" "C42"
 			(at 145.415 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +13470,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C19")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -13498,7 +13488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afdf425f-089f-443b-9abc-d1764622e2f3")
-		(property "Reference" "U5"
+		(property "Reference" "U13"
 			(at 110.49 222.885 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13618,7 +13608,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U5")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -13636,7 +13626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b859a86c-0181-475c-9ce2-b25550624ad8")
-		(property "Reference" "C13"
+		(property "Reference" "C46"
 			(at 80.645 145.4149 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13700,7 +13690,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C13")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -13718,7 +13708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbb93ec8-d126-4f0c-bd13-79d34fca1e41")
-		(property "Reference" "C20"
+		(property "Reference" "C25"
 			(at 158.115 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13782,7 +13772,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C20")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -13800,7 +13790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bca7df2a-671a-4885-9ec4-39933d1010b0")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR045"
 			(at 121.285 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -13860,7 +13850,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR022")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -13878,7 +13868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf425d0c-a1c3-4b60-b00b-bfe026d71790")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR059"
 			(at 90.17 260.985 0)
 			(hide yes)
 			(show_name no)
@@ -13938,7 +13928,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR049")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -13956,7 +13946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3614adb-3d45-4239-bf5d-7b5717a28c12")
-		(property "Reference" "C16"
+		(property "Reference" "C41"
 			(at 132.715 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14020,7 +14010,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C16")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -14038,7 +14028,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c523b465-7407-4e67-9040-52180e4537f0")
-		(property "Reference" "R12"
+		(property "Reference" "R36"
 			(at 224.79 52.705 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14100,7 +14090,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R12")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -14118,7 +14108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7fa07eb-633c-4439-9d29-f86a082a97ca")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR041"
 			(at 121.285 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -14178,7 +14168,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR021")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14196,7 +14186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9361011-926e-4834-aab6-fb02ae9790db")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR017"
 			(at 199.39 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -14256,7 +14246,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR030")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14274,7 +14264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca565039-bf31-449d-9999-87e1cc4cce6e")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 163.195 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -14334,7 +14324,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14352,7 +14342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd0e851c-4579-43a2-af45-72d0fbd753fe")
-		(property "Reference" "Q4"
+		(property "Reference" "Q9"
 			(at 94.615 104.7751 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14450,7 +14440,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q4")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -14467,7 +14457,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d03481d3-8da2-47cb-9cd4-d707b4849917")
-		(property "Reference" "C5"
+		(property "Reference" "C27"
 			(at 67.945 33.6549 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14531,7 +14521,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C5")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -14549,7 +14539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e5c601-f3f6-46a7-a77a-2c27b88f373f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR051"
 			(at 76.835 158.115 0)
 			(hide yes)
 			(show_name no)
@@ -14609,7 +14599,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR016")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -14626,7 +14616,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddb266b7-9bb2-4b84-9f9a-e04b699cd9f6")
-		(property "Reference" "C9"
+		(property "Reference" "C36"
 			(at 67.945 89.5349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14690,7 +14680,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C9")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -14707,7 +14697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de40d2c4-3be0-4bdf-9c60-7f8afc09aa78")
-		(property "Reference" "C28"
+		(property "Reference" "C39"
 			(at 223.52 144.1449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14771,7 +14761,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C28")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -14789,7 +14779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df231101-2a09-4f23-8acd-96e3ac112e26")
-		(property "Reference" "C25"
+		(property "Reference" "C38"
 			(at 210.82 144.1449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14853,7 +14843,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C25")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -14871,7 +14861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e0042ec3-aa7e-40a8-9044-075577b40b89")
-		(property "Reference" "R11"
+		(property "Reference" "R43"
 			(at 146.685 165.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14933,7 +14923,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R11")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -14951,7 +14941,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0ee0692-29e4-46e4-b13a-8011e668a84d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR035"
 			(at 43.815 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -15011,7 +15001,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR010")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -15029,7 +15019,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8770947-f2ca-4eaf-a772-fd21e88e844c")
-		(property "Reference" "Q10"
+		(property "Reference" "Q7"
 			(at 250.19 103.5051 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15127,7 +15117,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q10")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -15145,7 +15135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e97e0417-324e-45ca-b5e0-411dfcc8e925")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR056"
 			(at 129.54 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -15205,7 +15195,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR048")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -15223,7 +15213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ea269204-33d2-41c4-996f-3d748f747752")
-		(property "Reference" "Q11"
+		(property "Reference" "Q10"
 			(at 250.19 159.3851 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15321,7 +15311,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q11")
+					(reference "Q10")
 					(unit 1)
 				)
 			)
@@ -15339,7 +15329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb03a672-58df-4c17-afbe-bd5daf22e76a")
-		(property "Reference" "U11"
+		(property "Reference" "U4"
 			(at 219.71 39.9348 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15413,7 +15403,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U11")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15431,7 +15421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecf62547-e9a2-4bbc-be9f-01d2176ae5e9")
-		(property "Reference" "C15"
+		(property "Reference" "C32"
 			(at 132.715 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15495,7 +15485,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C15")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -15513,7 +15503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed576f34-4e4d-4542-85e4-2632444e0df0")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR036"
 			(at 85.725 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -15573,7 +15563,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR013")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15590,7 +15580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "edc811ee-e331-4ccc-8df7-2bac8a706aff")
-		(property "Reference" "C37"
+		(property "Reference" "C49"
 			(at 182.88 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15654,7 +15644,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C37")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -15671,7 +15661,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4a3db55-b293-468b-89e5-0562e4c2e7c3")
-		(property "Reference" "C18"
+		(property "Reference" "C33"
 			(at 145.415 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15735,7 +15725,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C18")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -15753,7 +15743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4d42340-64d0-4b54-8ea0-10ca2587875f")
-		(property "Reference" "R8"
+		(property "Reference" "R44"
 			(at 69.215 165.735 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15815,7 +15805,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R8")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -15833,7 +15823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f536eb2c-3044-4c00-99ea-da910f383def")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 121.285 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15893,7 +15883,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -15911,7 +15901,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5e766d5-844f-4d2d-94e2-2bcfcfd6aa91")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR029"
 			(at 121.285 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -15971,7 +15961,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15989,7 +15979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7682272-bf81-44bf-8445-8185fae1e0c1")
-		(property "Reference" "C32"
+		(property "Reference" "C17"
 			(at 288.29 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16053,7 +16043,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C32")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -16071,7 +16061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f821edbb-bed9-4599-b3b3-e0097f9a609d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR015"
 			(at 276.86 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -16131,7 +16121,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "#PWR042")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16149,7 +16139,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8888b67-31e8-4988-8ffc-45eb55f85e3c")
-		(property "Reference" "Q8"
+		(property "Reference" "Q11"
 			(at 172.085 160.0201 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16247,7 +16237,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "Q8")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -16265,7 +16255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb9d7259-e1a9-4285-b3fe-7149f4462c2b")
-		(property "Reference" "U9"
+		(property "Reference" "U8"
 			(at 141.605 96.4498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16339,7 +16329,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "U9")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -16357,7 +16347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fc2de8de-0713-4aff-b3fb-de6a58cc9fec")
-		(property "Reference" "C35"
+		(property "Reference" "C47"
 			(at 86.36 219.0749 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16421,7 +16411,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C35")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -16439,7 +16429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd606c65-2743-43bc-b89a-f3ba089ca206")
-		(property "Reference" "C14"
+		(property "Reference" "C23"
 			(at 132.715 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16503,7 +16493,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "C14")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16521,7 +16511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff5370b0-8785-4db4-a2d9-b98192c2fb69")
-		(property "Reference" "R14"
+		(property "Reference" "R42"
 			(at 224.79 164.465 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16583,7 +16573,7 @@
 		(instances
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
-					(reference "R14")
+					(reference "R42")
 					(unit 1)
 				)
 			)
