@@ -8793,6 +8793,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "CN5")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -9303,6 +9315,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C15")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -9923,6 +9947,14 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "FPC2")
 					(unit 1)
+					(variant
+						(name "10x10x10-MASTER")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10004,6 +10036,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C6")
 					(unit 1)
+					(variant
+						(name "10x10x10-MASTER")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10276,6 +10320,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "CN2")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10517,6 +10573,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C7")
 					(unit 1)
+					(variant
+						(name "10x10x10-MASTER")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10868,6 +10936,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "CN4")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11275,6 +11355,13 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "R16")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(field
+							(name "Value")
+							(value "470R")
+						)
+					)
 				)
 			)
 		)
@@ -11676,6 +11763,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C13")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12007,6 +12106,17 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C16")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+					)
 				)
 			)
 		)
@@ -12224,6 +12334,14 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "FPC3")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12630,6 +12748,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C11")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12711,6 +12841,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C5")
 					(unit 1)
+					(variant
+						(name "10x10x10-MASTER")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13202,6 +13344,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C10")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13473,6 +13627,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "CN3")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13637,6 +13795,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C12")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13907,6 +14077,13 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "R17")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(field
+							(name "Value")
+							(value "470R")
+						)
+					)
 				)
 			)
 		)
@@ -14288,6 +14465,14 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "FPC1")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14611,6 +14796,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C8")
 					(unit 1)
+					(variant
+						(name "10x10x10-MASTER")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14692,6 +14889,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C9")
 					(unit 1)
+					(variant
+						(name "10x10x10-MASTER")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15364,6 +15573,14 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "CN1")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15607,6 +15824,18 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(reference "C14")
 					(unit 1)
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15997,6 +16226,14 @@
 			(project "SC_LED_CUBE_SLAVE_Board"
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68"
 					(page "2")
+					(variant
+						(name "10x10x10-SLAVE-L")
+						(dnp yes)
+					)
+					(variant
+						(name "10x10x10-SLAVE-U")
+						(dnp yes)
+					)
 				)
 			)
 		)

@@ -703,7 +703,20 @@
       }
     ],
     "used_designators": "H1-4,R1-47,FPC1-3,C1-49,#PWR1-60,CN1-5,Q1-12,U1-15,LC1",
-    "variants": []
+    "variants": [
+      {
+        "name": "10x10x10-MASTER"
+      },
+      {
+        "name": "10x10x10-SLAVE-L"
+      },
+      {
+        "name": "10x10x10-SLAVE-U"
+      },
+      {
+        "name": "5x5x5"
+      }
+    ]
   },
   "sheets": [
     [

@@ -7471,7 +7471,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 224.79 106.045 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7525,6 +7525,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "R39")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -7617,6 +7621,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "U11")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -8049,6 +8057,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "Q4")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -8131,6 +8143,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C40")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -8347,6 +8363,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "U14")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -8666,6 +8686,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C48")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -8954,7 +8978,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 146.685 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9436,6 +9460,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "Q3")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -9622,7 +9650,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 146.685 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9914,6 +9942,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C29")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -10937,6 +10969,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C19")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11018,6 +11054,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C18")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11099,6 +11139,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C30")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11307,6 +11351,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "U3")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11545,6 +11593,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C43")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -11956,6 +12008,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C21")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12154,6 +12210,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C22")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12336,7 +12396,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 69.215 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12472,6 +12532,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C31")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12554,6 +12618,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "R46")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12580,7 +12648,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 302.26 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12634,6 +12702,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "R35")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12716,6 +12788,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C20")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -12808,6 +12884,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "U7")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13167,7 +13247,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 69.215 51.435 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13391,6 +13471,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "U10")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -13472,6 +13556,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C42")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14012,6 +14100,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C41")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14038,7 +14130,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 224.79 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14092,6 +14184,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "R36")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14763,6 +14859,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C39")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14845,6 +14945,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C38")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -14871,7 +14975,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 146.685 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14925,6 +15029,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "R43")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15119,6 +15227,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "Q7")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15313,6 +15425,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "Q10")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15405,6 +15521,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "U4")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -15753,7 +15873,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 69.215 163.195 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16045,6 +16165,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "C17")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -16239,6 +16363,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "Q11")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -16521,7 +16649,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 224.79 161.925 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16575,6 +16703,10 @@
 				(path "/05b76261-bd4e-44a7-a06b-4790fed2cb68/fbb69639-dda9-4e93-8981-c4fc0dfcbbf0"
 					(reference "R42")
 					(unit 1)
+					(variant
+						(name "5x5x5")
+						(dnp yes)
+					)
 				)
 			)
 		)

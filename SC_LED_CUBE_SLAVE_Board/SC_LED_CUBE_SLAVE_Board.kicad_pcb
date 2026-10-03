@@ -127,6 +127,20 @@
 			(outputdirectory "")
 		)
 	)
+	(variants
+		(variant
+			(name "10x10x10-MASTER")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+		)
+		(variant
+			(name "5x5x5")
+		)
+	)
 	(footprint "lcsc_footprints:C3280214_SOT-23-6_L2_9-W1_6-P0_95-LS2_9-BL"
 		(layer "F.Cu")
 		(uuid "0209108a-ca08-4777-ad22-763f49e905af")
@@ -372,6 +386,18 @@
 			(pinfunction "D_6")
 			(pintype "unspecified")
 			(uuid "aaa68db9-83f6-4fb6-a445-77a28a092b12")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
@@ -1893,6 +1919,18 @@
 			(pintype "passive")
 			(uuid "4794dd21-d019-4cb4-b019-b239bda22f62")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -2038,6 +2076,14 @@
 			(net "Net-(U13-DSB)")
 			(pintype "passive")
 			(uuid "05f8d8a8-4fb0-4c40-b91a-390215c5cb8e")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -2188,6 +2234,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "b02e3316-55fc-460e-9efe-868109f448b7")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -2740,6 +2798,14 @@
 			(pinfunction "D_6")
 			(pintype "unspecified")
 			(uuid "9f97759e-feb6-4bbc-8481-8754a2a7acea")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
@@ -4261,6 +4327,14 @@
 			(pintype "passive")
 			(uuid "5f2f12b4-1ab1-4c85-a335-950e3fbda1a2")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -4292,7 +4366,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "2e236859-076c-4b50-9a24-89ed10687b28")
@@ -4410,6 +4484,14 @@
 			(net "Net-(Q9-G)")
 			(pintype "passive")
 			(uuid "7887c35e-2046-4015-ad1b-0d5e06530afe")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -4704,6 +4786,14 @@
 			(pintype "passive")
 			(uuid "26cb19f8-f22b-400a-a9d4-c7b9937cda13")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -4850,6 +4940,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "cb54dc01-c143-4690-9ba3-83e9f323b0ab")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -6601,6 +6703,18 @@
 			(pintype "power_in")
 			(uuid "c133a9b0-a39e-47fb-9d63-a1260cec86da")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -6750,6 +6864,18 @@
 			(pintype "passive")
 			(uuid "495b1363-65bc-4054-bbdd-6a4589365074")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
@@ -6898,6 +7024,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "9b99a5a6-1066-4328-981a-ebd66edbdce3")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -7289,6 +7427,14 @@
 			(pinfunction "VCC_5")
 			(pintype "power_in")
 			(uuid "7ea69aa6-076b-447a-ac1e-f525c40c9c3e")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
@@ -8005,7 +8151,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "101e7ff4-276e-4155-859d-e2794ae1e0ae")
@@ -8123,6 +8269,18 @@
 			(net "Net-(Q4-G)")
 			(pintype "passive")
 			(uuid "4289e753-5c61-426f-9c2f-bd8503c3a7dc")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -8273,6 +8431,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "d8ed64e6-b91c-4227-a78f-f091a6fcc41b")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -9068,6 +9238,18 @@
 			(pintype "passive")
 			(uuid "42b47afa-c87e-42bc-936a-797aac2857ff")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
@@ -9099,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "af794623-9a19-4f60-8246-966b29708630")
@@ -9217,6 +9399,14 @@
 			(net "Net-(Q12-G)")
 			(pintype "passive")
 			(uuid "55aa4670-de0d-4b0d-a9ad-b2b9210391f6")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -9363,6 +9553,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "4bccff21-d11a-493b-b145-d4da466037f6")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -9952,6 +10150,14 @@
 			(pintype "passive")
 			(uuid "f7150d24-6957-4904-9abc-31a5f9746a83")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -10102,6 +10308,14 @@
 			(pintype "passive")
 			(uuid "15b4a4fe-959c-42ad-8388-1c84fa73c987")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -10247,6 +10461,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "cc909db4-7059-4747-9c68-8d32388844ef")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -10637,6 +10859,14 @@
 			(pinfunction "12_12")
 			(pintype "unspecified")
 			(uuid "dcee43a0-b1bc-4a05-ab7e-c725e71af1fb")
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2906114.wrl"
@@ -11371,6 +11601,18 @@
 			(pintype "unspecified")
 			(uuid "629c38fc-a25d-4fda-affb-d289d361031d")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C264992.wrl"
 			(offset
@@ -11519,6 +11761,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "21b4c288-786f-4bb8-9fc1-f9850fa4b65b")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -11670,6 +11920,14 @@
 			(pintype "passive")
 			(uuid "0a1a173b-42fa-48bb-b073-63fd6df31ebb")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -11819,6 +12077,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "b33380e4-c675-42a4-9b30-2c595e56c370")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -13474,6 +13740,18 @@
 			(pintype "passive")
 			(uuid "0a8f9bbc-2519-40d7-a7b8-c77ded1b90c0")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -13797,7 +14075,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "46848e75-0a39-4223-9b15-b17c0bd6f7d7")
@@ -13915,6 +14193,14 @@
 			(net "Net-(Q8-G)")
 			(pintype "passive")
 			(uuid "921a73d8-e07d-4202-9e5a-409a2642967a")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -14304,6 +14590,18 @@
 			(pintype "passive")
 			(uuid "8c2be131-f1ba-4f73-b393-59791269d316")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -14452,6 +14750,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "5e3e5ca8-2b56-4a15-af0b-7a708d2efccf")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -14844,6 +15154,18 @@
 			(pintype "power_in")
 			(uuid "0ce9b2bd-bc89-4474-b72f-d94e687589ae")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -15195,6 +15517,13 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "9f623574-a928-474e-a148-cd8c6140bc01")
+		)
+		(variant
+			(name "5x5x5")
+			(field
+				(name "Value")
+				(value "470R")
+			)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -15586,6 +15915,14 @@
 			(pinfunction "VCC_5")
 			(pintype "power_in")
 			(uuid "9b16defe-dc49-41ad-b591-46fed39beb06")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
@@ -17567,6 +17904,18 @@
 			(pintype "passive")
 			(uuid "57cec525-1821-4e69-9603-fb5b8753b866")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -17926,6 +18275,18 @@
 			(pintype "unspecified")
 			(uuid "accd1c6f-548f-431a-bd0e-a26a30425146")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C842271.wrl"
 			(offset
@@ -18185,6 +18546,14 @@
 			(pintype "unspecified")
 			(uuid "6dc5a254-a60b-425e-b62b-90ed4b8ce4e9")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
 			(offset
@@ -18334,6 +18703,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "24981dce-68c4-4e69-8fe3-379a8e880fe4")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -18663,6 +19044,18 @@
 			(pinfunction "+_2")
 			(pintype "unspecified")
 			(uuid "18efb0bf-9275-4044-800d-8e0c25df8b04")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C428721.wrl"
@@ -19199,6 +19592,14 @@
 			(pinfunction "12_12")
 			(pintype "unspecified")
 			(uuid "fefff1bd-4301-4692-b138-a69b0799ec46")
+		)
+		(variant
+			(name "10x10x10-MASTER")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2906114.wrl"
@@ -24003,6 +24404,18 @@
 			(pintype "passive")
 			(uuid "3914b387-0b1c-49e5-bf9f-3b421288c933")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -24151,6 +24564,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "c19fab50-b603-4b23-8f44-9839a2ab4934")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -24301,6 +24722,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "ddd2d07b-2116-438f-a84f-24a26c4afcad")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -24737,6 +25166,18 @@
 			(pintype "unspecified")
 			(uuid "18a1f45c-6726-4cd0-9ba2-2e7965d118bd")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C264992.wrl"
 			(offset
@@ -24995,6 +25436,18 @@
 			(pinfunction "D_6")
 			(pintype "unspecified")
 			(uuid "ddc301fa-3d1b-48eb-81b8-191869c189d8")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
@@ -25427,6 +25880,14 @@
 			(pintype "passive")
 			(uuid "cb9c07b1-3041-4baf-984e-60f7ee9aeb0e")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -25458,7 +25919,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "b10e40db-2bdb-4551-8888-a119d2c6565d")
@@ -25576,6 +26037,18 @@
 			(net "Net-(Q3-G)")
 			(pintype "passive")
 			(uuid "fadfb7c5-cd21-4573-aff6-ccaa1cb6f9d6")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -26114,6 +26587,14 @@
 			(pintype "power_in")
 			(uuid "344bae54-0790-4a24-92fe-639bf3331889")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -26410,6 +26891,18 @@
 			(pintype "passive")
 			(uuid "3290e50e-85ae-465e-9cc0-af25b941fb81")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -26668,6 +27161,14 @@
 			(pinfunction "D_6")
 			(pintype "unspecified")
 			(uuid "39ca1dd0-a8cd-4325-ad92-0843595435de")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
@@ -27458,6 +27959,18 @@
 			(pintype "unspecified")
 			(uuid "22fef6a7-362d-439f-9b88-aafdab2737ee")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
 			(offset
@@ -27607,6 +28120,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "da3a0b94-ca48-42c7-9c1d-b86d1287be6d")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -30764,6 +31285,14 @@
 			(pintype "unspecified")
 			(uuid "2e503c4b-bc22-4942-86ac-07abf1e831b2")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2906114.wrl"
 			(offset
@@ -31169,6 +31698,14 @@
 			(pintype "unspecified")
 			(uuid "2dc0e5aa-4d20-4848-8d62-b833eca4e892")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
 			(offset
@@ -31200,7 +31737,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "75db0fb7-67f3-46f6-bd75-5fa13e4bb5bf")
@@ -31318,6 +31855,14 @@
 			(net "Net-(Q6-G)")
 			(pintype "passive")
 			(uuid "c37b0630-421f-4a0f-9899-40a4931ea571")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -31467,6 +32012,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "c1cf20d5-1f75-4488-940a-54661a29ecb2")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -31859,6 +32412,14 @@
 			(pintype "power_in")
 			(uuid "bc7c8e50-6fe8-4a0d-b391-b04635e5fc7e")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -32118,6 +32679,14 @@
 			(pintype "unspecified")
 			(uuid "8183e64f-40ea-4979-9da6-c9942d5af195")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
 			(offset
@@ -32268,6 +32837,18 @@
 			(pintype "passive")
 			(uuid "6024f7b2-41f6-446c-a566-8173fce88cfc")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -32417,6 +32998,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "b0a36e17-685c-40c3-a1c5-3de0f93cf868")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -38391,6 +38984,18 @@
 			(pintype "power_in")
 			(uuid "56644831-7d96-455c-93f1-e0965a3f09ae")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -38942,6 +39547,18 @@
 			(pintype "unspecified")
 			(uuid "58629fda-11e7-40a5-9a3e-691814de4526")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
 			(offset
@@ -39301,6 +39918,14 @@
 			(pintype "unspecified")
 			(uuid "1a06b1db-6c23-4c62-bbc4-4e2e58ffac96")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C842271.wrl"
 			(offset
@@ -39560,6 +40185,18 @@
 			(pintype "unspecified")
 			(uuid "367c89a5-8c94-4a95-8dbd-01bc6c8af829")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C3280214.wrl"
 			(offset
@@ -39709,6 +40346,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "00f0d37b-bf88-4960-b1ed-2973dd456f14")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -45836,6 +46481,18 @@
 			(pintype "passive")
 			(uuid "39f7d9cd-ee19-44c3-a81c-fe931ef3ff64")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 			(offset
@@ -45867,7 +46524,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "bad86460-23f0-42b0-aded-80b1c35224cc")
@@ -45985,6 +46642,14 @@
 			(net "Net-(Q5-G)")
 			(pintype "passive")
 			(uuid "d2345483-2844-4319-b532-8938a841035a")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -47818,6 +48483,18 @@
 			(pintype "passive")
 			(uuid "7cc764da-27ec-4920-8a07-fc6597353d45")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -47967,6 +48644,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "fdd18308-ac45-4d1a-a543-ecac7a6227f7")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -48505,6 +49190,18 @@
 			(pintype "power_in")
 			(uuid "dccfe729-a31e-42cb-b685-8f995b670924")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -48682,7 +49379,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "1ad01a03-5173-408b-8203-92ed38c0d4d6")
@@ -48800,6 +49497,18 @@
 			(net "Net-(Q7-G)")
 			(pintype "passive")
 			(uuid "54dcf08a-22b0-4081-893c-64d08f5b6af6")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -48949,6 +49658,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "3da0d6dd-f4fc-43e2-b437-0ca0e4581ecb")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -49273,7 +49990,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "d393a4cf-a99d-4f46-8e08-f0fd1c28cc02")
@@ -49391,6 +50108,18 @@
 			(net "Net-(Q11-G)")
 			(pintype "passive")
 			(uuid "aa970183-0807-43eb-96b4-dfc1f5864653")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -50912,6 +51641,18 @@
 			(pintype "passive")
 			(uuid "6a4d2b07-fa7c-42c2-8b92-e2686e6c1e8b")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -51208,6 +51949,18 @@
 			(pintype "passive")
 			(uuid "cd19b8b5-281e-4908-af4f-49a614685955")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
 			(offset
@@ -51239,7 +51992,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "100R"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "2fb9a716-3880-468b-8049-40901af9e50b")
@@ -51357,6 +52110,18 @@
 			(net "Net-(Q10-G)")
 			(pintype "passive")
 			(uuid "0aebfa1e-499f-4e18-968b-b85f002833a0")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
@@ -51749,6 +52514,14 @@
 			(pintype "power_in")
 			(uuid "759e1fc9-8b4b-4a10-b77c-744f71c22dac")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -52037,6 +52810,14 @@
 			(pinfunction "3_3")
 			(pintype "unspecified")
 			(uuid "f123aef8-d50a-49dd-8bd7-261ea331ac49")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C264992.wrl"
@@ -52522,6 +53303,13 @@
 			(pintype "passive")
 			(uuid "c34f9461-a85e-4418-a3ad-8be33cc3731e")
 		)
+		(variant
+			(name "5x5x5")
+			(field
+				(name "Value")
+				(value "470R")
+			)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
 			(offset
@@ -52670,6 +53458,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "656dc0f3-cec1-417a-bbe5-c05d767e6d44")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
@@ -52820,6 +53620,14 @@
 			(pintype "passive")
 			(uuid "7863e47b-9aa0-4cea-9e4d-19f56ebc54ff")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
 			(offset
@@ -52969,6 +53777,14 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "7dce0b17-5a23-4195-9d44-d1bd04168460")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -54950,6 +55766,18 @@
 			(pintype "passive")
 			(uuid "842e4597-8f3f-44c6-9f2b-7dfc3bb27a93")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -55341,6 +56169,18 @@
 			(pintype "power_in")
 			(uuid "515bcac8-f347-4cdd-a9b8-f851ae2840f5")
 		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
 			(offset
@@ -55490,6 +56330,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "a387c063-aea5-40fc-8855-5823ddac7fa8")
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
@@ -55780,6 +56632,10 @@
 			(pintype "unspecified")
 			(uuid "94629120-d8dc-44bd-8855-04c2ac291b82")
 		)
+		(variant
+			(name "5x5x5")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C264992.wrl"
 			(offset
@@ -55930,6 +56786,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "0c4f4162-d556-4bea-aff5-9fc92236d5c5")
+		)
+		(variant
+			(name "10x10x10-MASTER")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
@@ -57052,6 +57920,18 @@
 			(pintype "passive")
 			(uuid "ee6085fc-3477-4058-abee-4f150a3a2b16")
 		)
+		(variant
+			(name "10x10x10-MASTER")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
@@ -57202,6 +58082,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "8b408f0c-a6cf-45fd-b28c-d58b15c899df")
+		)
+		(variant
+			(name "10x10x10-MASTER")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
@@ -57354,6 +58246,18 @@
 			(pintype "passive")
 			(uuid "0fdd04c0-bdd7-4876-8d45-1af13839d7ef")
 		)
+		(variant
+			(name "10x10x10-MASTER")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
 			(offset
@@ -57504,6 +58408,18 @@
 			(net "GND")
 			(pintype "passive")
 			(uuid "c87eae8e-6952-4bf0-9813-897b30870292")
+		)
+		(variant
+			(name "10x10x10-MASTER")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-L")
+			(dnp yes)
+		)
+		(variant
+			(name "10x10x10-SLAVE-U")
+			(dnp yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.step"
